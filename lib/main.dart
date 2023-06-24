@@ -82,7 +82,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
                 ),
                 padding: EdgeInsets.all(8.0),
                 child: Text(
-                  'Days Required: ${tasks[index].daysRequired}',
+                  'Days Required Deadline: ${tasks[index].daysRequired}',
                   style: TextStyle(fontSize: 16.0),
                 ),
               ),
@@ -144,7 +144,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
                 },
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(
-                  labelText: 'Days Required',
+                  labelText: 'Days Required Deadline',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(8.0),
                   ),
